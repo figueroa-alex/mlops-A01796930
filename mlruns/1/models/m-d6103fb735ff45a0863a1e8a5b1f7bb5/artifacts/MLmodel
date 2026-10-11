@@ -1,0 +1,24 @@
+artifact_path: "/Users/alexfigueroa/_Maestria IA TEC MNA/Periodos/08-2026-Septiembre-Diciembre/01-TC5061.10-Operaciones\
+  \ de aprendizaje automa\u0301tico/Semana04/mlruns/1/models/m-d6103fb735ff45a0863a1e8a5b1f7bb5/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.0
+model_id: m-d6103fb735ff45a0863a1e8a5b1f7bb5
+model_size_bytes: 29007
+model_uuid: m-d6103fb735ff45a0863a1e8a5b1f7bb5
+prompts: null
+run_id: 494c41910f314bc6925a91047b7c4498
+utc_time_created: '2026-10-11 01:35:35.341598'
